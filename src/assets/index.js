@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import adroit from "./company/adroit.png";
 import free from "./company/free.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import pep from "./pep.png";
+import adroitproject from "./adroit.png";
+import fynn from "./fynn.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   adroit,
   free,
-  carrent,
-  jobit,
-  tripguide,
+  pep,
+  adroitproject,
+  fynn,
 };

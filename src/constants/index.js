@@ -19,9 +19,9 @@ import {
   adroit,
   free,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  pep,
+  adroitproject,
+  fynn,
   threejs,
 } from "../assets";
 
@@ -192,67 +192,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pep Realty",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This website showcases the services and offerings of the company, providing an overview of what they do. It is fully responsive, ensuring a seamless experience across all devices, and is built using HTML and CSS..",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pep,
+    source_code_link: "https://www.thepeprealty.com",
   },
   {
-    name: "Job IT",
+    name: "Adroit INTL",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This website offers engaging animations and interactive features, along with EmailJS integration for seamless email communication, it combines style and functionality.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: adroitproject,
+    source_code_link: "https://effortless-meringue-fbfb4b.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Fynn Interiors",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Fynn Interiors' website features a sleek, modern design with interactive elements and smooth animations. It showcases their interior design services while providing an engaging user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fynn,
+    source_code_link: "https://",
   },
 ];
 
