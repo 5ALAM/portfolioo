@@ -4,17 +4,17 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  sql,
   html,
   css,
   reactjs,
-  redux,
+  restapi,
   tailwind,
   nodejs,
-  mongodb,
+  tech,
   git,
-  figma,
-  docker,
+  psql,
+  mui,
   accu,
   adroit,
   free,
@@ -69,33 +69,36 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+ 
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "MySQL",
+    icon: sql,
   },
+  {
+    name: "REST API",
+    icon: restapi,
+  },
+  {
+    name: "Postgre SQL",
+    icon: psql,
+  },
+ 
+  
   {
     name: "Three JS",
     icon: threejs,
@@ -104,53 +107,56 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  
   {
-    name: "figma",
-    icon: figma,
+    name: "Material UI",
+    icon: mui,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "tech",
+    icon: tech,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Full Stack Developer & IT Support",
     company_name: "Adroit INTL",
     icon: adroit,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a Business Process Automation (BPA) web application to streamline workflows and task tracking using React JS, ReactFlow, Node JS, and Express JS.",
+      "Engineered a responsive front-end interface with intuitive navigation for enhanced user experience.",
+      "Built an Entity-Relationship (ER) diagram to define database schema and relationships using PostgreSQL.",
+      "Created and integrated RESTful APIs for seamless communication between front-end and back-end.",
+      "Implemented key features including workflow creation, task management (add, edit, delete), and process status updates.",
+      
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Web Developer & IT Support",
     company_name: "Freelance",
     icon: free,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2023 - Sep 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Delivered end-to-end solutions including domain registration, web hosting, and email setup for diverse clients.",
+      "Developed responsive websites using React JS, HTML5, and CSS.",
+      "Configured DNS for seamless website and email functionality.",
+      
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Software Engineer",
     company_name: "Accubits",
     icon: accu,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jul 2022 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Led full-stack web application development using React JS, Node JS, and MySQL.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Designed and maintained robust REST APIs to enhance backend functionality.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },

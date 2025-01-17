@@ -8,17 +8,17 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import mui from "./tech/mui.png";
+import psql from "./tech/postgre.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import tech from "./tech/technical-support.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import restapi from "./tech/api.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import sql from "./tech/mysql.png";
 import threejs from "./tech/threejs.svg";
 
 import accu from "./company/accu.png";
@@ -40,17 +40,17 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  mui,
+  psql,
   git,
   html,
   javascript,
-  mongodb,
+  tech,
   nodejs,
   reactjs,
-  redux,
+  restapi,
   tailwind,
-  typescript,
+  sql,
   threejs,
   accu,
   shopify,
