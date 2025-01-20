@@ -1,0 +1,32 @@
+.sticky-button {
+    position: fixed;
+    right: 20px; /* Align the button to the right edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%) rotate(-90deg); /* Rotate and center */
+    transform-origin: right center; /* Adjust the rotation point */
+    background-color: #915eff   ; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Initial border */
+    border-radius: 0px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #915eff;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .sticky-button:hover {
+    transform: translateY(-50%) rotate(-90deg) scale(1.1); /* Maintain rotation and scale */
+    box-shadow: 0 0 20px black, 0 0 40px white; /* Intensify glow on hover */
+    
+  }
+  
+  .sticky-button .icon {
+    font-size: 20px;
+  }
+  
