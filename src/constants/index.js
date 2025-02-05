@@ -252,7 +252,7 @@ const projects = [
       },
     ],
     image: fynn,
-    source_code_link: "https://",
+    source_code_link: "https://ornate-sorbet-d618e6.netlify.app",
   },
 ];
 
